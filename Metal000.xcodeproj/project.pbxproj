@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7CAC46CD211F7C7A00AF9C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC46CC211F7C7A00AF9C83 /* AppDelegate.swift */; };
 		7CAC46CF211F7C7A00AF9C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC46CE211F7C7A00AF9C83 /* ViewController.swift */; };
-		7CAC46D2211F7C7A00AF9C83 /* Metal000.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC46D0211F7C7A00AF9C83 /* Metal000.xcdatamodeld */; };
 		7CAC46D4211F7C7C00AF9C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAC46D3211F7C7C00AF9C83 /* Assets.xcassets */; };
 		7CAC46D7211F7C7C00AF9C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAC46D5211F7C7C00AF9C83 /* Main.storyboard */; };
 		7CAC46E3211F7C7C00AF9C83 /* Metal000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAC46E2211F7C7C00AF9C83 /* Metal000Tests.swift */; };
@@ -37,11 +36,9 @@
 		7CAC46C9211F7C7A00AF9C83 /* Metal000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal000.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAC46CC211F7C7A00AF9C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CAC46CE211F7C7A00AF9C83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7CAC46D1211F7C7A00AF9C83 /* Metal000.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Metal000.xcdatamodel; sourceTree = "<group>"; };
 		7CAC46D3211F7C7C00AF9C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CAC46D6211F7C7C00AF9C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CAC46D8211F7C7C00AF9C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CAC46D9211F7C7C00AF9C83 /* Metal000.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Metal000.entitlements; sourceTree = "<group>"; };
 		7CAC46DE211F7C7C00AF9C83 /* Metal000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metal000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAC46E2211F7C7C00AF9C83 /* Metal000Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal000Tests.swift; sourceTree = "<group>"; };
 		7CAC46E4211F7C7C00AF9C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,8 +100,6 @@
 				7CAC46D3211F7C7C00AF9C83 /* Assets.xcassets */,
 				7CAC46D5211F7C7C00AF9C83 /* Main.storyboard */,
 				7CAC46D8211F7C7C00AF9C83 /* Info.plist */,
-				7CAC46D9211F7C7C00AF9C83 /* Metal000.entitlements */,
-				7CAC46D0211F7C7A00AF9C83 /* Metal000.xcdatamodeld */,
 			);
 			path = Metal000;
 			sourceTree = "<group>";
@@ -257,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAC46D2211F7C7A00AF9C83 /* Metal000.xcdatamodeld in Sources */,
 				7CAC46CF211F7C7A00AF9C83 /* ViewController.swift in Sources */,
 				7CAC46CD211F7C7A00AF9C83 /* AppDelegate.swift in Sources */,
 			);
@@ -579,19 +573,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7CAC46D0211F7C7A00AF9C83 /* Metal000.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7CAC46D1211F7C7A00AF9C83 /* Metal000.xcdatamodel */,
-			);
-			currentVersion = 7CAC46D1211F7C7A00AF9C83 /* Metal000.xcdatamodel */;
-			path = Metal000.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7CAC46C1211F7C7A00AF9C83 /* Project object */;
 }

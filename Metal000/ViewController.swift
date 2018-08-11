@@ -11,6 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
 
     @IBOutlet weak var label: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,7 +32,5 @@ class ViewController: NSViewController {
             print("this is new")
         }
     }
-
-
 }
 
